@@ -1,0 +1,57 @@
+models/*.pth
+
+#jobs/*.sh
+
+*.yaml
+*.yml
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore latex generated stuff
+publications/**/*.aux
+publications/**/*.log
+
+logs/
+
+*.tar
+*.pth
+*.spec
+
+data/*.csv
+data/*.jpg
+data/*.png
+*.csv
+
+environment.yml
+
+build/
+
+# Ignore jupyter notebook checkpoints
+.ipynb_checkpoints/
+models/*.pth
+*.json
+*.[png|jpg|tiff]
+
+# Ignore env
+env/
+
+tmp/
+notebooks/tmp/
+bin/*.sh
+
+# Ignore 
+
+# Ignore latex stuff
+*.aux
+*.bbl
+*.blg
+*.loc
+*.log
+*.out
+*.pdf
+*.soc
+*.toc
+_minted-main/
